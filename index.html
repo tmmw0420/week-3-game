@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Psychic Game</title>
+</head>
+<body>
+	<h1>The Psychic Game</h1>
+	<div id="game">
+		<p> Guess what letter I'm thinking of:</p>
+	</div>
+			
+<script type="text/javascript">
+	
+var compChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'z'];
+var wins = 0;
+var losses = 0; 
+var guessesLeft = 0; 
+
+
+document.onkeyup = function(event) {
+	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+	var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+}
+
+}
+
+
+
+</script>	
+
+
+</body>
+</html>
